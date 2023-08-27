@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "'Poppins', sans-serif";
+}
+.Nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BE3144;
+    position: sticky;
+}  
+li {
+    float: right;
+}  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
+}  
+li a:hover:not(.active) {
+    background-color: #45567D;
+  
+}
+.banner-section{
+    background-color: rgb(34, 31, 31);
+    width: auto;
+    height: 600px; 
+}
+.Banner-section-h1{
+    color: white;
+    padding-left: 40%;
+    padding-top: 300px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner-section-h3{
+    color: #BE3144;
+    padding-left: 44%;
+    padding-top: 0px;
+    font-size: 20px;    
+    font-family: 'poppsins',sans-serif;
+    font-style: italic;
+    padding-top: 10px;
+}
+  
+/* Cards CSS */
+.card-container{
+  background-color: #45567D;
+  width: auto;
+  height: auto;
+  padding-bottom:0px ;
+}
+.cards-h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'raleway',sans-serif;
+  border-bottom: 2px solid white;
+  color: rgb(247, 245, 245);
+  margin: 0 425px 60px 425px;
+  padding: 80px 10px 10px 10px;
+}
+
+.cards{
+    background-color: #45567D;
+    width: auto;
+    height: auto;
+    padding-bottom:30px ;
+}
+
+
+/* Float 3 columns side by side */
+.column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+  }
+  
+  .row {margin: 0 105px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    text-align: center;
+    background-color: #303841;
+  }
+  .under-img-h3{
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    font-family:raleway,sans-serif;
+    font-weight: lighter;
+  }
+
+  .end-btn {
+    margin-top: 20px;
+    margin-left: 650px;
+    background-color: #303841;
+    border: none;
+    width: 190px;
+    height: 60px;
+    font-size: 20px;
+    color: #FFFFFF;
+    /* border-radius: 0.5vw; */
+    /* font-weight: bold; */
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .end-btn i {
+    float: right;
+    text-decoration: none;
+    
+  }
+  .last-container{
+    background-color: #303841;
+    width: auto;
+    height: auto;
+    padding-bottom:100px ;
+    padding-top: 100px;
+}
+.last-h1{
+  text-align: center;
+  font-size: 60px;
+  font-family: raleway,sans-serif;
+  color: rgb(247, 245, 245);
+  padding: 80px 10px 10px 10px;
+}
+.last-p{
+  color:white;
+  text-align: center;
+  font-style: italic;
+  font-size: 19px;
+  font-family: 'Poppins', sans-serif;
+
+}
+.icons-div{
+  padding-left: 300px;
+}
+.fa {
+  padding: 0px;
+  padding-bottom: 130px;
+  font-size: 20px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 12px;
+  color: #FFFFFF;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  /* background: #3B5998; */
+  color: white;
+}
+
+/* Footer Section */
+.footer-line{
+  width: auto;
+  height: 4px;
+  background-color: #BE3144;
+}
+.footer{
+  width: auto;
+  height: 50px;
+  background-color: #303841;
+  padding: 30px;
+}
+.footer-p{
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
